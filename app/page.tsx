@@ -1,11 +1,10 @@
-import { HomePage } from '@/src/pages/Home'
-import { Box, Container, Typography } from '@mui/material'
-import Image from 'next/image'
+import { HomePageComponent } from "@/src/_pages/Home";
+
 
 export default function Home() {
 
 
   return (
-    <HomePage />
+    <HomePageComponent />
   )
 }

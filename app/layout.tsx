@@ -20,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="w-screen h-screen">
+        <main className="w-screen h-screen" style={{
+          boxShadow: "inset 0 0 20em 1em #919191;"
+        }}>
 
           <Header />
 
